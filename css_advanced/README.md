@@ -13,11 +13,10 @@
 
 ## 📁 Project Structure
 
-SmileSchool/
+css_advanaced/
 ├── index.html
 ├── styles.css
 ├── images/
-
 
 ---
 
