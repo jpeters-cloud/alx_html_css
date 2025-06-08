@@ -5,9 +5,8 @@
 ---
 
 ## 🌐 Live Preview
-
-> _Coming soon_  
-> *(You can deploy this on GitHub Pages, Netlify, or Vercel)*
+ 
+> *(https://jpeters-cloud.github.io/alx_html_css/css_advanced/index.html))*
 
 ---
 
