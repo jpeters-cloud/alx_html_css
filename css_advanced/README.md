@@ -1,46 +1,66 @@
-# SmileSchool Homepage
+# 😄 SmileSchool
 
-This is a simple HTML project representing the homepage layout for **SmileSchool**, a fictional educational platform that teaches smiling techniques. The structure and design are based on a Figma layout and implemented using semantic HTML and external CSS styling.
+**SmileSchool** is a responsive and engaging landing page for an educational platform focused on the art of smiling. This project is built using HTML and CSS, with a clean structure and visually rich sections to create an inviting user experience.
 
-##  Project Structure
+---
 
-```
+## 🌐 Live Preview
 
-css_advanced/
-├── index.html          # Main HTML file for the homepage
-├── styles.css          # CSS stylesheet (to be created)
-└── images/             # Directory containing image assets
+> _Coming soon_  
+> *(You can deploy this on GitHub Pages, Netlify, or Vercel)*
 
-```
+---
 
-##  Features
+## 📁 Project Structure
 
-- Hero section with a bold call to action and background image
-- Navigation menu with links to "Courses", "Pricing", and "Login"
-- Professional profiles section highlighting smiling experts
-- Testimonial quote section
-- Popular tutorials section with thumbnails and ratings
-- Free membership perks
-- Frequently Asked Questions (FAQ)
-- Footer with social media icons and branding
+SmileSchool/
+├── index.html
+├── styles.css
+├── images/
 
-## Usage
 
-1. Clone or download the project.
-2. Make sure all images are placed in the `images/` folder as referenced in the HTML.
-3. Open `index.html` in any modern web browser.
-4. Link `styles.css` in the `<head>` section if it’s not already connected.
+---
 
-## Styling
+## ✨ Features
 
-The site layout is designed to follow modern UI trends, with:
-- Background images
-- Flexbox and grid layout (planned in CSS)
-- Hover effects on buttons and icons
-- Consistent typography and spacing
+### 🧭 Navigation
+- Simple and clean top navbar
+- Brand logo and links to **Courses**, **Pricing**, and **Login**
 
-## To Do
+### 🎓 Hero Section
+- Tagline: _“Get schooled”_
+- Emphasizes **SMILES**, **GRIN**, **LAUGH**
+- Prominent **Register for Free** button
 
-- Add responsive CSS for mobile/tablet viewports
-- Hook up links to actual course/pricing/login pages
-- Improve accessibility (alt text, heading structure)
+### 👨‍🏫 Learn from the Pros
+- Showcases top smile experts
+- Each expert includes name, photo, and awards
+
+### 💬 Testimonials
+- Highlight of a satisfied user with quote and profession
+
+### 📹 Popular Tutorials
+- Four video tutorials with:
+  - Preview thumbnails
+  - Star ratings (Font Awesome)
+  - Author info and short description
+
+### 🆓 Free Membership Perks
+- List of benefits displayed with smile icons
+
+### ❓ Frequently Asked Questions
+- Structured questions and answers
+- Easily extendable for interactivity with JavaScript
+
+### 📢 Footer
+- Includes social media links (Facebook, Twitter, Instagram)
+- Logo and copyright
+
+---
+
+## 🛠️ Technologies Used
+
+- **HTML5**
+- **CSS3**
+- **Font Awesome 6**
+- **Responsive Design Principles**
