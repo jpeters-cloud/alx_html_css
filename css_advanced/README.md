@@ -1,44 +1,46 @@
-# Project: ALX HTML & CSS Advanced
+# SmileSchool Homepage
 
-## Objective
-The focus of this project is on CSS and styling the page based on the provided design. You'll use the Figma file as a reference and incorporate the images, fonts, and other design assets to replicate the final result accurately.
+This is a simple HTML project representing the homepage layout for **SmileSchool**, a fictional educational platform that teaches smiling techniques. The structure and design are based on a Figma layout and implemented using semantic HTML and external CSS styling.
 
-## Resources
-- **Figma Design**: [Page in Figma](https://www.figma.com/design/xxrxA9zYkautRePyNrp0cO/Homepage-(Copy)?node-id=0-1&t=kXTxTGurDQH9QgDW-1)
-  - Ensure you have a Figma account to duplicate the design to your drafts for detailed access.
-- **Fonts**: 
-  - [Source Sans Pro](https://fonts.google.com/specimen/Source+Sans+Pro)
-  - [Spin Cycle OT](font-download-link)
-- **Images**: Download the required images [here](images-download-link).
+##  Project Structure
 
-## Tasks
-1. **Write a README.md**
-   - Include project objectives, resources, and usage instructions.
+```
 
-2. **Create index.html**
-   - Start with the HTML code provided in the "HTML, Advanced" concept page.
-   - Make any necessary updates to the code (e.g., adding image tags for logos).
+css_advanced/
+├── index.html          # Main HTML file for the homepage
+├── styles.css          # CSS stylesheet (to be created)
+└── images/             # Directory containing image assets
 
-3. **Style the page**
-   - Use CSS to replicate the design from the Figma file.
-   - If the design specifies float values, feel free to round them.
+```
 
-## Important Notes
-- Ensure your computer has the required fonts installed. If not, download them from the links above.
-- Replicate the design as closely as possible, paying attention to margins, paddings, font sizes, and colors.
-- Organize your files into the following structure:
-  ```
-  alx_html_css/
-  ├── css_advanced/
-      ├── README.md
-      ├── index.html
-      ├── styles.css (optional, for additional CSS)
-      ├── assets/
-          ├── images/
-          ├── fonts/
-  ```
+##  Features
 
-## Submission
-- Push your completed files to the `alx_html_css` repository.
-- Verify all links, assets, and styles render correctly.
+- Hero section with a bold call to action and background image
+- Navigation menu with links to "Courses", "Pricing", and "Login"
+- Professional profiles section highlighting smiling experts
+- Testimonial quote section
+- Popular tutorials section with thumbnails and ratings
+- Free membership perks
+- Frequently Asked Questions (FAQ)
+- Footer with social media icons and branding
 
+## Usage
+
+1. Clone or download the project.
+2. Make sure all images are placed in the `images/` folder as referenced in the HTML.
+3. Open `index.html` in any modern web browser.
+4. Link `styles.css` in the `<head>` section if it’s not already connected.
+
+## Styling
+
+The site layout is designed to follow modern UI trends, with:
+- Background images
+- Flexbox and grid layout (planned in CSS)
+- Hover effects on buttons and icons
+- Consistent typography and spacing
+
+## To Do
+
+- Add responsive CSS for mobile/tablet viewports
+- Hook up links to actual course/pricing/login pages
+- Improve accessibility (alt text, heading structure)
