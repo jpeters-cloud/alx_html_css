@@ -1,117 +1,118 @@
-/* Reset */
+/* 0-styles.css */
+
+/* 1. Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: 'Source Sans Pro', sans-serif;
-  line-height: 1.5;
-  color: #333;
-  background-color: #fff;
-}
-
-/* Variables */
+/* 2. Variables */
 :root {
-  --primary-color: #FF6565;
-  --text-color: #333;
+  --main-color: #ff6565;
+  --text-color: #fff;
   --max-width: 1000px;
-  --button-hover-opacity: 0.9;
+  --font-family: 'Source Sans Pro', sans-serif;
 }
 
-/* Container */
+/* 3. Base styles */
+body {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  background-image: url('images/headphones_hero_1.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+/* 4. Layout */
 .container {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 20px;
-}
-
-/* Header */
-.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 0;
 }
 
-.logo {
-  height: 40px;
+/* 5. Navigation */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
-.nav-menu a {
-  text-decoration: none;
+.nav-links a {
   color: var(--text-color);
-  margin-left: 20px;
+  text-decoration: none;
 }
 
-.nav-menu a:hover,
-.nav-menu a:active {
-  color: var(--primary-color);
+.nav-links a:hover,
+.nav-links a:active {
+  color: var(--main-color);
 }
 
-/* Hero Section */
+/* 6. Logo */
+.logo {
+  height: 30px;
+}
+
+/* 7. Hero Section */
 .hero {
   text-align: center;
-  padding: 100px 20px;
-  background: url('images/banner-desktop.jpg') no-repeat center center/cover;
-  color: #fff;
+  margin-top: 150px;
 }
 
 .hero h1 {
-  font-size: 48px;
-  margin-bottom: 20px;
+  font-size: 32px;
+  margin-bottom: 10px;
 }
 
 .hero p {
-  font-size: 20px;
-  margin-bottom: 30px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
-.cta-button {
-  padding: 14px 28px;
-  background-color: var(--primary-color);
-  color: #fff;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  font-size: 16px;
+.btn {
+  display: inline-block;
+  background-color: var(--main-color);
+  color: white;
+  padding: 10px 30px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.cta-button:hover,
-.cta-button:active {
-  opacity: var(--button-hover-opacity);
+.btn:hover,
+.btn:active {
+  opacity: 0.9;
 }
 
-/* Mobile Version */
+/* 8. Hero Description */
+.hero-desc {
+  text-align: center;
+  margin-top: 50px;
+  padding: 0 20px;
+  max-width: var(--max-width);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* 9. Responsive */
 @media screen and (max-width: 480px) {
-  .site-header {
+  .container {
     flex-direction: column;
-    align-items: flex-start;
+    text-align: center;
   }
 
-  .nav-menu {
-    margin-top: 10px;
-    display: flex;
+  .nav-links {
     flex-direction: column;
     gap: 10px;
+    margin-top: 10px;
   }
 
-  .hero {
-    padding: 80px 20px;
-    background: url('images/banner-mobile.jpg') no-repeat center center/cover;
-  }
-
-  .hero h1 {
-    font-size: 32px;
-  }
-
-  .hero p {
-    font-size: 16px;
-  }
-
-  .cta-button {
-    font-size: 14px;
-    padding: 12px 20px;
+  body {
+    background-image: url('images/headphones_hero_2.jpg');
   }
 }
